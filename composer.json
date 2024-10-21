@@ -1,0 +1,23 @@
+{
+    "name": "yourname/oddeven",
+    "description": "A Laravel package to determine if a number is odd or even",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YourName\\OddEven\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourName\\OddEven\\OddEvenServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
